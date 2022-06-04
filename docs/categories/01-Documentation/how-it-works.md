@@ -89,7 +89,7 @@ You can check in the Network Monitor of your browser:
 
 1. handshake (contains the session ID — here, `zBjrh...AAAK` — that is used in subsequent requests)
 2. send data (HTTP long-polling)
-3. receive data (HTTP long-polling)
+3. receive data (HTTP short-polling)
 4. upgrade (WebSocket)
 5. receive data (HTTP long-polling, closed once the WebSocket connection in 4. is successfully established)
 
